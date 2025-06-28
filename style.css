@@ -3,14 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: 'Inter', sans-serif;
   background-color: #f4f6fa;
   color: #333;
   padding: 80px 20px;
 }
-
 .container {
   max-width: 600px;
   margin: auto;
@@ -19,7 +17,6 @@ body {
   border-radius: 12px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
-
 h1 {
   font-size: 24px;
   font-weight: 600;
@@ -27,20 +24,17 @@ h1 {
   margin-bottom: 30px;
   color: #000000;
 }
-
 form {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
-
 label {
   font-size: 20px;
   font-weight: 900;
   text-align: center;
   margin-bottom: 1px;
 }
-
 .input-group {
   display: flex;
   width: 100%;
@@ -54,7 +48,6 @@ label {
   font-size: 16px;
   outline: none;
 }
-
 .input-group button {
   border: 1px solid #ccc;
   border-left: none;
@@ -66,11 +59,9 @@ label {
   cursor: pointer;
   transition: background 0.3s;
 }
-
 .input-group button:hover {
   background-color: #072cff;
 }
-
 .result {
   margin-top: 30px;
   background-color: #f9fbff;
@@ -78,13 +69,11 @@ label {
   border-radius: 10px;
   padding: 30px;
 }
-
 .result p {
   margin-bottom: 10px;
   font-size: 15px;
   line-height: 1.5;
 }
-
 .result strong {
   color: #1e2d3b;
 }
