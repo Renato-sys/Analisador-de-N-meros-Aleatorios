@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Analisador de Números</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+  <main class="container">
+    <h1>Analisador de Numeros Aleatorios</h1>
+
+    <form id="analisador-form">
+      <label for="quantidade">Quantidade de números</label>
+      
+      <div class="input-group">
+        <input
+          type="number"
+          id="quantidade"
+          min="1"
+          placeholder="Digite um número."
+          required
+        />
+        <button type="submit">Gerar e Analisar</button>
+      </div>
+    </form>
+
+    <section id="resultado" class="result"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
